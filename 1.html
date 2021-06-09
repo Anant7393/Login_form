@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    
+    <title>login</title>
+       <style> 
+        .bgtext {
+            position: relative;
+                    }
+                    .bgtext::before{
+                        margin: 3rem;
+                        content: "created by ANANT MISHRA";
+
+                        position: absolute;
+                        transform: rotate(300deg);
+                        -webkit-transform: rotate(300deg);
+                        color: rgb(187,182,182);
+                        top: 0;
+                        left: 0;
+                        z-index: -1;
+
+                    }
+    </style>
+    
+</head>
+<body>
+    <div class="bgtext">
+    
+
+    <div class="formdi">
+        
+        <div class="formbox">
+             
+             <div class="buttons">
+                 <div id="btndesign"></div>
+                 <button type="submit" class="formbtn" onclick="rgform()">Sign in</button>
+                 <button type="submit" class="formbtn" onclick="logform()">Sign up</button>
+      
+
+
+             </div>
+<form action="" name="contact" method="POST" data-netlify="true" class="form-group" id="loginform">
+    <input type="text" class="input" placeholder="Username" required>  
+    <input type="password" class="input" placeholder="Password" required>  
+     <button type="submit" class="btn-login-reg">Sign in</button>
+
+</form>
+
+<form action=""  name="contact" method="POST" data-netlify="true" class="form-group" id="regform">
+    <input type="text" class="input" placeholder="Username" required>  
+    <input type="email" class="input" placeholder="Email" required>  
+    <input type="password" class="input" placeholder="Password" required>  
+    <select class="select">
+     <option value="0">Where did you find us?</option>
+     <option value="Google">Google</option>
+     <option value="Bing">Bing</option>
+     <option value="Yahoo">Yahoo</option>
+     <option value="Your friend Anant">Your friend Anant</option>
+
+    </select>
+<button type="submit" class="btn-login-reg">Sign up</button>
+
+</form>
+
+<div class="social-media">
+
+<a href="#" class="social-icon">
+    <i class="fab fa-facebook"></i>
+</a>
+<a href="#" class="social-icon">
+    <i class="fab fa-twitter"></i>
+</a>
+<a href="#" class="social-icon">
+    <i class="fab fa-google"></i>
+</a>
+<a href="#" class="social-icon">
+    <i class="fab fa-linkedin"></i>
+</a>
+
+</div>
+
+
+</div>
+<script src="style.js"></script>
+
+    </div>
+    </div>
+</body>
+</html>
